@@ -1,8 +1,2 @@
-sub_category = $('#sub_category').val();
-    console.log('Category:', category);
-    console.log('Sub Category:', sub_category);
-    setTimeout(function() {
-      if (category && sub_category === null) {
-        getSubcategoryByCategoryId(category);
-      }
-    }, 100);
+Could not find package laravel/laravel with version 11.* in a version installable using your PHP version, PHP extensions and Composer version.
+composer create-project --prefer-dist laravel/laravel your-project-name "11.*"
